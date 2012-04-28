@@ -46,7 +46,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vold.umsdirtyratio=20
 
-# DEVICE_PACKAGE_OVERLAYS += device/htc/vision/overlay
+DEVICE_PACKAGE_OVERLAYS += device/htc/vision/overlay
 
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
