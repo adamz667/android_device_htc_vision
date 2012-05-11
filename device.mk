@@ -147,3 +147,8 @@ $(call inherit-product, device/htc/vision/media_a1026.mk)
 $(call inherit-product, frameworks/base/build/phone-hdpi-512-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/htc/vision/device-vendor.mk)
+
+# Inherit some common AOKP stuff.
+$(call inherit-product, vendor/aokp/configs/common.mk)
+$(call inherit-product, vendor/aokp/configs/common_versions.mk)
+
