@@ -151,4 +151,3 @@ $(call inherit-product-if-exists, vendor/htc/vision/device-vendor.mk)
 # Inherit some common AOKP stuff.
 $(call inherit-product, vendor/aokp/configs/common.mk)
 $(call inherit-product, vendor/aokp/configs/common_versions.mk)
-
