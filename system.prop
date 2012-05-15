@@ -11,6 +11,7 @@ debug.sf.hw=1
 debug.composition.type=mdp
 ro.sf.compbypass.enable=0
 dev.pm.dyn_samplingrate=1
+debug.enabletr=true
 
 # cm qcom build lub
 com.qc.hardware=true
