@@ -12,8 +12,6 @@ debug.composition.type=mdp
 ro.sf.compbypass.enable=0
 dev.pm.dyn_samplingrate=1
 
-windowsmgr.max_events_per_sec=240
-
 # cm qcom build lub
 com.qc.hardware=true
 com.qc.hdmi_out=false
