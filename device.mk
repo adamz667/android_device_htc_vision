@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 ## (1) First, the most specific values, i.e. the aspects that are specific to GSM
 
 PRODUCT_COPY_FILES += \
+    device/htc/vision/init.rc:root/init.rc \
     device/htc/vision/init.vision.rc:root/init.vision.rc \
     device/htc/vision/ueventd.vision.rc:root/ueventd.vision.rc
 
@@ -151,3 +152,5 @@ $(call inherit-product-if-exists, vendor/htc/vision/device-vendor.mk)
 # Inherit some common AOKP stuff.
 $(call inherit-product, vendor/aokp/configs/common.mk)
 $(call inherit-product, vendor/aokp/configs/common_versions.mk)
+$(call inherit-product, vendor/aokp/configs/common_phone.mk)
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
