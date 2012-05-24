@@ -491,12 +491,16 @@ service drm /system/bin/drmserver
 
 #init.d
 service userinit /system/xbin/busybox run-parts /system/etc/init.d
-    disabled
+    class main
+    user root
+    group shell
     oneshot
 
 #init.d
-service sysinit /system/xbin/busybox run-parts /system/etc/init.d
-    disabled
+service sysinit /system/bin/logwrapper /system/xbin/busybox run-parts /system/etc/init.d
+    class main
+    user root
+    group shell
     oneshot
 
 service media /system/bin/mediaserver
