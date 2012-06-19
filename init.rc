@@ -490,13 +490,6 @@ service drm /system/bin/drmserver
     group system inet drmrpc
 
 #init.d
-service userinit /system/xbin/busybox run-parts /system/etc/init.d
-    class main
-    user root
-    group shell
-    oneshot
-
-#init.d
 service sysinit /system/bin/logwrapper /system/xbin/busybox run-parts /system/etc/init.d
     class main
     user root
