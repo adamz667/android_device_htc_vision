@@ -65,5 +65,12 @@ ro.ril.update.org.acoustic=1
 # Define TCP buffer sizes
 net.tcp.buffersize.hsdpa=4094,87380,393216,4096,16384,110208
 
-#For USB mount
+# For USB mount
 persist.sys.usb.config=mass_storage,adb
+
+# Hardware info
+ro.device.cpu=800Mhz Qualcomm MSM7230 Snapdragon S2
+ro.device.gpu=Adreno 205
+ro.device.rear_cam=5MP
+ro.device.front_cam=None
+ro.device.screen_res=480x840
