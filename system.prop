@@ -1,7 +1,7 @@
 #
 # system.prop for vision 
 #
-ro.sf.lcd_density=240
+ro.sf.lcd_density=213
 
 # Disable system restrictions for all builds
 persist.sys.strictmode.visual=0 
@@ -63,3 +63,10 @@ net.tcp.buffersize.hsdpa=4094,87380,393216,4096,16384,110208
 
 #For USB mount
 persist.sys.usb.config=mass_storage
+
+# Hardware info
+ro.device.cpu=800Mhz Qualcomm MSM7230 Snapdragon S2
+ro.device.gpu=Adreno 205
+ro.device.rear_cam=5MP
+ro.device.front_cam=None
+ro.device.screen_res=480x840
