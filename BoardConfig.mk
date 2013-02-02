@@ -25,9 +25,6 @@
 # against the traditional rules of inheritance).
 USE_CAMERA_STUB := true
 
-# Bring in all audio files
-include frameworks/base/data/sounds/AllAudio.mk
-
 # inherit from common msm7x30
 -include device/htc/msm7x30-common/BoardConfigCommon.mk
 

@@ -16,7 +16,8 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-#Andromadus Vendor include
+# Bring in all audio files
+include frameworks/base/data/sounds/AllAudio.mk
 
 # The gps config appropriate for this device
 PRODUCT_COPY_FILES += \
